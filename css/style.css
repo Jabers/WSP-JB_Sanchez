@@ -3,7 +3,6 @@ body {
 	background: #fff;
 }
 
-
 #wrapper {
 	background: #f0e68c;
 	margin: auto;
@@ -22,10 +21,10 @@ h2 {
 	border-bottom-style: dotted;
 }
 
-h3 {
+h3, p {
 	color: #556b2f;
 }
 
-p, ul {
+ul {
 	color: #696969;
 }
