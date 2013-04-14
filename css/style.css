@@ -1,10 +1,10 @@
 body {
 	font-family: 'Noto Sans', sans-serif;
-	background: #fff;
+	background: #f0e68c;
 }
 
 #wrapper {
-	background: #f0e68c;
+	background: #fff;
 	margin: auto;
 	max-width: 460px;
 	-webkit-border-radius: 8px;
