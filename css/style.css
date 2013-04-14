@@ -1,3 +1,31 @@
-.wrapper {
-	background: #0f0;
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background: #fff;
+}
+
+
+#wrapper {
+	background: #f0e68c;
+	margin: auto;
+	max-width: 460px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 0 12px #888;
+	padding: 0 20px 20px;
+}
+
+h1, h2 {
+	color: #4b0082;
+}
+
+h2 {
+	border-bottom-style: dotted;
+}
+
+h3 {
+	color: #556b2f;
+}
+
+p, ul {
+	color: #696969;
 }
