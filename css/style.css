@@ -35,8 +35,18 @@ h3, p {
 	color: #556b2f;
 }
 
-img {
+#image {
 	margin: auto;
+	max-width: 650px;
+	max-height: 765px;
+	border: solid #009da5 1px;
+}
+
+#image2 {
+	margin: auto;
+	max-width: 650px;
+	max-height: 765px;
+	border: solid #521f81 1px;
 }
 
 ul {
