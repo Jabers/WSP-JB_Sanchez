@@ -1,68 +1,47 @@
 @font-face {
-	font-family: 'Noto Serif', serif;
-    src: url('http://fonts.googleapis.com/css?family=Noto+Serif:400,700');
- }
- 
- @font-face {
-	font-family: 'Noto Sans', sans-serif;
-    src: url('http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic');
- }
-/*--------------------- end of webfont kits ---------------------*/
+	font-family: "Nota Sans";
+	src: url('http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic') ;
+}
 
 body {
-	font-family: 'Noto Sans';
-	background-image: url (cross_scratches_@2X.png) ;
+	background-image: url (cross_scratches_@2X.png);
 }
 
 #wrapper {
 	margin: auto;
-	width: 800px;
-	height: 500px;
-/*	-webkit-border-radius: 0 0 8px 8px;
-	border-radius: 0 0 8px 8px;
-	-webkit-box-shadow: 0 0 12px #888; */
-	padding: 0 20px 20px;
-}
-
-#logo {
-
+	max-width: 700px;
+	font-family: "Nota Sans";
 }
 
 #main_nav li {
+	padding: 5px;
 	list-style-type: none;
 }
 
 #main_nav a:link {
-	
-	font-family: 'Nota Serif';
+	color: #fff;
+	background-color: black;
+	font-family: 'Nota Sans';
+	text-decoration: none;
 }
 
-h1, h2 {
-	color: #4b0082;
+#main_nav a:visited {
+	color: #fff;
+	background-color: black;
+	font-family: 'Nota Sans';
+	text-decoration: none;
 }
 
-h2 {
-	border-bottom-style: dotted;
+#main_nav a:hover {
+	color: #fff;
+	background-color: black;
+	font-family: 'Nota Sans';
+	text-decoration: none;
 }
 
-h3, p {
-	color: #556b2f;
+#main_nav a:active {
+	color: #fff;
+	background-color: black;
+	font-family: 'Nota Sans';
+	text-decoration: none;
 }
-
-#image {
-	margin: auto;
-	max-width: 650px;
-	max-height: 765px;
-	border: solid #009da5 1px;
-}
-
-#image2 {
-	margin: auto;
-	max-width: 650px;
-	max-height: 765px;
-	border: solid #521f81 1px;
-}
-
-/*ul {
-	color: #696969;
-}*/
