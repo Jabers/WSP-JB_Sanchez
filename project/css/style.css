@@ -4,7 +4,8 @@
 }
 
 body {
-	background-image: url (cross_scratches_@2X.png);
+	background-color: #a3238e;
+	background-image: url (cross_scratches_@2X.png); 
 }
 
 #wrapper {
