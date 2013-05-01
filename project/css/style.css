@@ -60,6 +60,12 @@ body {
 
 #logo {
 	margin: 0 0 0 50px;
+	width: 299px;
+	height 112.5px;
+}
+
+.centered {
+	text-align: center;
 }
 
 #main_nav {
@@ -230,9 +236,9 @@ body {
 	text-shadow: 0px 0px 4px #000;
 	line-height: 150%;
 }
-/*----- product ----*/
-#product_text {
-	margin: 30px 0 0 250px;
+/*----- booking ----*/
+#booking_text {
+	margin: 24px 0 0 250px;
 	padding: 5px;
 	width: 600px;
 	height: 200px;
@@ -240,7 +246,7 @@ body {
 /*	background-color: rgba(255,255,255,0.7);  */
 }
 
-#product_text h1 {
+#booking_text h1 {
 	font-family: "Noto Sans";
 	font-size: 35px;
 /*	color: #274641;  */
@@ -248,17 +254,17 @@ body {
 	text-shadow: 0px 0px 4px #000;
 }
 
-#product_text h2 {
+#booking_text h2 {
 	font-family: "Noto Sans";
 	font-size: 17px;
-/*	color: #274641; */
+/*	color: #274641;  */
 	color: #fff;
 	text-shadow: 0px 0px 4px #000;
 	font-style: italic;
 	line-height: 110%;
 }
 
-#product_text h3 {
+#booking_text h3 {
 	font-family: "Noto Sans";
 	font-size: 17px;
 /*	color: #274641;  */
@@ -267,7 +273,7 @@ body {
 	line-height: 110%;
 }
 
-#product_text p {
+#booking_text p {
 	font-size: 15px;
 /*	color: #274641;  */
 	color: #fff;
