@@ -25,7 +25,6 @@ body {
 	margin: 25px auto;
 	width: 960px;
 	height: 500px;
-	background-color: orange;
 	font-family: "Noto Sans";
 }
 
@@ -51,6 +50,7 @@ body {
 #donations #wrapper {
 	background-image: url(new_Lolli2.jpg);
 	background-size: 960px 720px;
+	background-position: 0% 30%;
 }
 
 #photog #wrapper {
@@ -115,25 +115,31 @@ body {
 	padding: 5px;
 	width: 600px;
 	overflow: visible;
-	background-color: rgba(255,255,255,0.7);
+/*	background-color: rgba(255,255,255,0.7);  */
 }
 
 #welcome_text h1 {
 	font-family: "Noto Sans";
 	font-size: 35px;
-	color: #274641;
+/*	color: #274641;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 }
 
 #welcome_text h2 {
 	font-family: "Noto Sans";
 	font-size: 17px;
-	color: #274641;
+/*	color: #274641;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	font-style: italic;
 }
 
 #welcome_text p {
 	font-size: 15px;
-	color: #274641;
+/*	color: #274641; */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	line-height: 150%;
 }
 /*----- meet ----*/
@@ -143,19 +149,23 @@ body {
 	width: 600px;
 	height: 200px;
 	overflow: auto;
-	background-color: rgba(255,255,255,0.7);
+/*	background-color: rgba(255,255,255,0.7);  */
 }
 
 #meet_text h1 {
 	font-family: "Noto Sans";
 	font-size: 35px;
-	color: #274641;
+/*	color: #274641;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 }
 
 #meet_text h2 {
 	font-family: "Noto Sans";
 	font-size: 17px;
-	color: #274641;
+/*	color: #274641;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	font-style: italic;
 	line-height: 110%;
 }
@@ -163,13 +173,17 @@ body {
 #meet_text h3 {
 	font-family: "Noto Sans";
 	font-size: 17px;
-	color: #274641;
+/*	color: #274641;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	line-height: 110%;
 }
 
 #meet_text p {
 	font-size: 15px;
-	color: #274641;
+/*	color: #274641;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	line-height: 150%;
 }
 /*----- upcoming ----*/
@@ -179,19 +193,23 @@ body {
 	width: 600px;
 	height: 200px;
 	overflow: auto;
-	background-color: rgba(255,255,255,0.7);
+/*	background-color: rgba(255,255,255,0.7);  */
 }
 
 #upcoming_text h1 {
 	font-family: "Noto Sans";
 	font-size: 35px;
-	color: #274641;
+/*	color: #274641;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 }
 
 #upcoming_text h2 {
 	font-family: "Noto Sans";
 	font-size: 17px;
-	color: #274641;
+/*	color: #274641;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	font-style: italic;
 	line-height: 110%;
 }
@@ -199,13 +217,17 @@ body {
 #upcoming_text h3 {
 	font-family: "Noto Sans";
 	font-size: 17px;
-	color: #274641;
+/*	color: #274641;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	line-height: 110%;
 }
 
 #upcoming_text p {
 	font-size: 15px;
-	color: #274641;
+/*	color: #274641;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	line-height: 150%;
 }
 /*----- product ----*/
@@ -215,19 +237,23 @@ body {
 	width: 600px;
 	height: 200px;
 	overflow: auto;
-	background-color: rgba(255,255,255,0.7);
+/*	background-color: rgba(255,255,255,0.7);  */
 }
 
 #product_text h1 {
 	font-family: "Noto Sans";
 	font-size: 35px;
-	color: #274641;
+/*	color: #274641;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 }
 
 #product_text h2 {
 	font-family: "Noto Sans";
 	font-size: 17px;
-	color: #274641;
+/*	color: #274641; */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	font-style: italic;
 	line-height: 110%;
 }
@@ -235,13 +261,17 @@ body {
 #product_text h3 {
 	font-family: "Noto Sans";
 	font-size: 17px;
-	color: #274641;
+/*	color: #274641;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	line-height: 110%;
 }
 
 #product_text p {
 	font-size: 15px;
-	color: #274641;
+/*	color: #274641;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	line-height: 150%;
 }
 
@@ -249,11 +279,13 @@ body {
 	float: right;
 	margin: 40px 45px 0 0;
 	padding: 2px 5px;
-	background-color: rgba(255,255,255,0.6);
+/*	background-color: rgba(255,255,255,0.6);  */
 }
 
 #photo_link a:link {
-	color: #000;
+/*	color: #000; */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	font-family: "Noto Sans", serif;
 	font-size: 12px;
 	font-style: italic;
@@ -262,7 +294,9 @@ body {
 }
 
 #photo_link a:visited {
-	color: #000;
+/*	color: #000; */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	font-family: "Noto Sans", serif;
 	font-size: 12px;
 	font-style: italic;
@@ -271,7 +305,9 @@ body {
 }
 
 #photo_link a:hover {
-	color: #000;
+/*	color: #000;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	font-family: "Noto Sans", serif;
 	font-size: 12px;
 	font-style: italic;
@@ -280,7 +316,9 @@ body {
 }
 
 #photo_link a:active {
-	color: #000;
+/*	color: #000;  */
+	color: #fff;
+	text-shadow: 0px 0px 4px #000;
 	font-family: "Noto Sans", serif;
 	font-size: 12px;
 	font-style: italic;
