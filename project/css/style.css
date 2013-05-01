@@ -25,9 +25,37 @@ body {
 	margin: 25px auto;
 	width: 960px;
 	height: 500px;
-	background-image: url(samp_img2.jpg);
 	background-color: orange;
 	font-family: "Noto Sans";
+}
+
+#index #wrapper {
+	background-image: url(new_petters2.jpg);
+}
+
+#meet #wrapper {
+	background-image: url(new_Liam2.jpg);
+}
+
+#events #wrapper {
+	background-image: url(new_rooster2.jpg);
+	background-size: 960px 1200px;
+	background-position: 0% 30%;
+}
+
+#products #wrapper {
+	background-image: url(new_Kiwi2.jpg);
+	background-size: 960px 640px;
+}
+
+#donations #wrapper {
+	background-image: url(new_Lolli2.jpg);
+	background-size: 960px 720px;
+}
+
+#photog #wrapper {
+	background-image: url(new_Mojo2.jpg);
+	background-size: 960px 720px;
 }
 
 #logo {
