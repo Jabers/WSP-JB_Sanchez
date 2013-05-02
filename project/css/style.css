@@ -307,11 +307,11 @@ body {
 #onsite_text {
 	margin: 24px 0 0 250px;
 	padding: 5px;
-	width: 480px;
-	height: 460px; 
+	width: 475px;
+/*	height: 460px;   */
 	overflow: auto;
 /*	float: right;  */
-	background-color: rgba(255,255,255,0.4);
+	background-color: rgba(255,255,255,0.3);
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
@@ -362,14 +362,21 @@ body {
 }
 
 #trip_details {
-	width: 190px;
+	width: 49%;
 	height: 140px;
-	border: solid 1px #fff;
+	border-right: solid 1px #fff;
 	float: left;
 }
 
 #contact_info {
+	width: 49%;
+	height: 140px;
 	float: right;
+}
+
+#submit {
+	width: 100px;
+	margin: 0 auto;
 }
 
 #f1 {
