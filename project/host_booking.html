@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
 <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+<meta charset="utf-8" />
 <link rel=stylesheet href="css/style.css" type="text/css">
 <title>Exotic Animal Experience in Orlando--Tours, field trips, birthday parties, educational camps with Exotic Animals</title>
 </head>
 
-<body id="index">
+<body id="onsite">
 	<div id="wrapper">
 		<div id="logo">
 			<a href="index.html"><img src="images/logo.jpg" width=299 height=112.5 alt="The Exotic Experience"></a>
 		</div> <!-- end logo -->
 		<nav id="main_nav">
 			<ul>
-				<li class="here">HOME</li>
+				<li><a href="index.html">HOME</a></li>
 				<li><a href="meet_the_animals.html">MEET the ANIMALS</a></li>
 				<li><a href="upcoming_events.html">UPCOMING EVENTS </a></li>
 				<li><a href="products.html">PRODUCTS for SALE</a></li>
@@ -24,22 +24,121 @@
 			</ul>
 		</nav> <!-- end main_nav -->
 
-	<div id="booking_text">		
-		<h1>LET'S BOOK A VISIT!</h1>
-			<h2>Thank you for your interest in the Exotic Experience of Orlando.</h2></br>
-			<p>We are excited for the chance to meet you! Please take a few moments to complete our simple Visitors Form. Once the form is submitted we will be in contact to review the details, confirm your trip, and handle payment.</p><br />
-			<p>Before we can gather the details we need to know where you would like the experience to take place:</p>
-			<div id="location">
-				<form id="f1" method="get" action="onsite_booking.html">
-					<input type="submit" value="on-site"/>
-				</form>
-				<form id="f2" method="get" action="host_booking.html">
-					<input type="submit" value="host a visit"/>
-				</form>
-			</div>
-			<div id="clear">
-			</div>
-	</div><!-- end booking_text -->
+	<div id="host_text">		
+		<h1>HOST EXPERIENCE FORM</h1>
+			<h2>*All fields are required.</h2></br>
+    <form method="get" action="onsite_booking.html"> <!-- other action is "mailto:example@example.com" -->
+    <div id="location_details">
+    	<h3>LOCATION DETAILS:</h3>
+    	<div>
+			<p><label for="select">Select your type of event:</label></p>
+        </div>
+    	<div>
+        	<select name="select" id="select">
+            	<option value="private party">party (private event)</option>
+                <option value="birthday party">party (birthday)</option>
+                <option value="school field trip">field trip (school)</option>
+                <option value="church field trip">field trip (church)</option>
+                <option value="day camp field trip">field trip (day camp)</option>
+                <option value="educational camp">camp (educational)</option>
+                <option value="summer camo">camp (summer)</option>
+                <option value="family trip">family trip</option>
+			</select><br />
+		</div>
+			<p><label for="venue">Briefly describe the venue where event will take place:</label></p>
+		<p><textarea name="venue" rows= "4" cols="29"></textarea></p>
+		<div>
+			<p><label for="SelectedDate">Date of visit:</label></p>
+			<input type="text" value="ddmmyy" size="6" name="SelectedDate" id="SelectedDate" />
+		</div><br />
+		
+		<div>
+        	<label for="attendees"># of attendees (up to 20):</label>
+        </div>
+    	<div>
+        	<select name="attendees" id="attendees">
+            	<option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+			</select><br />
+		</div>
+	</div><!-- end location_details -->
+	<div id="contact_info">
+		<h3>VENUE ADDRESS:</h3>
+    	<div id="street">
+        	<p><label for="street">Street:</label>
+            <input type="text" size="28" name="street" id="street"/></p>
+        </div>
+        <div id="zipcode">
+        	<p><label for="zipcode">Zipcode:</label>
+            <input type="text" size="5" name="zipcode" id="zipcode"/></p>
+        </div><br />
+        
+        <h3>CONTACT INFO:</h3>
+    	<div id="first_name">
+        	<p><label for="name_first">First Name:</label>
+            <input type="text" name="name_first" id="name_first"/></p>
+        </div>
+
+    	<div id="last_name">
+        	<label for="name_last">Last Name:</label>
+            <input type="text" name="name_last" id="name_last"/>
+        </div>
+
+    	<div id="age">
+        	<label for="age">Age:</label>
+            <input type="text" name="age" id="age" size="2"/>
+        </div>
+        
+        <div id="phone">
+        	<label for="phone">Phone #:</label>
+            <input type="text" name="phone" id="phone"/>
+        </div>
+
+    	<div>
+        	<label for="email">Email:</label>
+            <input type="text" name="email" id="email"/>
+        </div><br />
+	</div><!-- end contact_info -->
+	
+	<div id="lastly">
+				<div id="email_me">
+					<p>
+						<input type="checkbox" name="pref_email" id="pref_email"/>
+						<label for="terms">I am easier to reach by phone.</label>
+					</p>
+				</div><!-- end email_me -->
+				<div id="phone_me">
+					<p>
+						<input type="checkbox" name="pref_phone" id="pref_phone"/>
+						<label for="terms">I am easier to reach by email.</label>
+					</p>
+				</div><!-- end phone_me -->
+	</div><!-- end lastly -->
+					<div id="submit">
+						<input type="submit" value="Submit" />
+					</div>
+			</form>
+<!--			<div id="clear">
+			</div> -->
+	</div><!-- end onsite_text -->
 	
 	<footer>
 		<div class="foot_sect1">
@@ -57,8 +156,8 @@
 		</div>
 		
 		<div class="foot_sect4">
-			<p>follow us on <a href="http://www.facebook.com/pages/Exotic-Experience/203469063013499" target=_blank><img  src="images/fb_logo.png" width=32 height=32 alt="facebook" class="textmiddle"></a></p>
-			<p>see the stars on <a href="http://www.youtube.com/4u2roos" target=_blank><img src="images/youtube.png" width=32 height=32 alt="youtube" class="textmiddle"></a></p>
+			<p>follow us on <a href="http://www.facebook.com/pages/Exotic-Experience/203469063013499" target=_blank><img  src="images/fb_logo.png" width=32 height=32 alt="facebook" class="textmiddle"/></a></p>
+			<p>see the stars on <a href="http://www.youtube.com/4u2roos" target=_blank><img src="images/youtube.png" width=32 height=32 alt="youtube" class="textmiddle"/></a></p>
 		</div>
 		
 	
