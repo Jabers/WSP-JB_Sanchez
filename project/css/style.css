@@ -305,7 +305,7 @@ body {
 
 /*----- onsite ----*/
 #onsite_text {
-	margin: 24px 0 0 250px;
+	margin: 24px 0 0 350px;
 	padding: 5px;
 	width: 475px;
 /*	height: 460px;   */
@@ -346,6 +346,7 @@ body {
 	color: #fff;
 	text-shadow: 0px 0px 4px #000;
 	line-height: 110%;
+	margin: 0 0 5px 0;
 }
 
 #onsite_text p {
@@ -370,8 +371,15 @@ body {
 
 #contact_info {
 	width: 49%;
+	margin: 0 0 10px 0;
 	height: 140px;
 	float: right;
+}
+
+#lastly {
+	padding: 5px 0 0 0;
+	border-top: solid 1px #fff;
+	clear: both;
 }
 
 #submit {
