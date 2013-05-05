@@ -287,6 +287,11 @@ body {
 	line-height: 150%;
 }
 
+.shop_btn {
+	float: left;
+	margin-left: 5px;
+}
+
 /*----- booking ----*/
 #booking_text {
 	margin: 24px 0 0 250px;
