@@ -288,8 +288,8 @@ body {
 }
 
 .shop_btn {
-	float: left;
-	margin-left: 5px;
+	width: 80%;
+	margin-top: 15px;
 }
 
 /*----- booking ----*/
