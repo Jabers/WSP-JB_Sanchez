@@ -452,6 +452,7 @@ body {
 #reach_me {
 	width: 50%;
 	margin: 0 auto;
+	border-top: solid 1px #fff;
 	clear: both;
 }
 
